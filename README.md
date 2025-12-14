@@ -25,7 +25,7 @@ The analysis is divided into 10 distinct steps. The Python (`.py`) and Bash (`.s
 * **Description:** Demultiplexes sequences (if applicable/required) using `emp_single` based on barcode sequences defined in the metadata.
 
 ### 4. QC Feature Table Construction (DADA2 & VSEARCH)
-* **Scripts:** * `dada2.py`: Performs denoising, quality filtering, and merging (Trim: 15 bp; Truncate: 280/240 bp).
+* **Scripts:**  `dada2.py`: Performs denoising, quality filtering, and merging (Trim: 15 bp; Truncate: 280/240 bp).
     * `vsearch.py`: Clusters ASVs into OTUs at 97% identity.
     * `featuretable_summary_asv.py` & `featuretable_summary_otu.py`: Generates summary visualizations for both ASV and OTU tables.
 
