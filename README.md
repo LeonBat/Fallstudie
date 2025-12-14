@@ -40,7 +40,7 @@ The analysis is divided into 10 distinct steps. The Python (`.py`) and Bash (`.s
     * **OTU:** Uses the "combined" method (prevalence + concentration).
 
 ### 7. Phylogenetic Tree & Diversity Analysis
-* **Scripts:** * `phylogenetic_tree.py`: Constructs a rooted phylogenetic tree using MAFFT alignment and FastTree.
+* **Scripts:**  `phylogenetic_tree.py`: Constructs a rooted phylogenetic tree using MAFFT alignment and FastTree.
     * `diversity_analysis.py` & `alphabetaanalysis.py`: Calculates core diversity metrics (Faith's PD, Shannon, UniFrac, Bray-Curtis) and generates PCoA plots (Emperor) and group significance tests (PERMANOVA).
 
 ### 8. Alpha Rarefaction
